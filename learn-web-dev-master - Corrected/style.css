@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  text-align: center;
+  width: 100vw;
+  margin: 0px auto;
+}
+
+.my-header {
+  padding-top: 20px;
+  text-align: center;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  background-color: rgb(1, 45, 92);
+  padding-bottom: 20px;
+  min-height: min-content;
+}
+.heading {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: "Lato";
+  font-weight: 300px;
+  font-size: 64px;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  width: 90%;
+  letter-spacing: 2px;
+  line-height: 1.3em;
+  word-spacing: 4px;
+}
+
+.no_display {
+  display: block;
+}
+.heading span {
+  color: crimson;
+}
+.text {
+  font-family: Lato;
+  font-weight: 100px;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+}
+.images {
+  margin-top: 20px;
+  display: grid;
+  justify-content: center;
+  /* margin-left: 50px; */
+  grid-gap: 20px;
+}
+.img-1 {
+  border: 2px solid grey;
+  max-width: 50vw;
+  height: auto;
+  object-fit: contain;
+}
+.img-2 {
+  border: 1px solid grey;
+  max-width: 50vw;
+  height: auto;
+  object-fit: contain;
+}
+.img-3 {
+  border: 1px solid grey;
+  max-width: 50vw;
+  height: auto;
+  object-fit: contain;
+}
+.first-link {
+  border: 5px double white;
+  background-color: orange;
+  padding: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+.first-link span {
+  text-decoration: line-through;
+}
+.main {
+  max-width: 70%;
+  margin: 0 auto;
+  line-height: 2.2em;
+}
+.first-header {
+  line-height: 1.2em;
+  margin: 0 auto;
+  margin-top: 35px;
+  font-family: Lato;
+  font-weight: 500;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+  color: rgb(1, 45, 92);
+}
+.first-header strong {
+  font-weight: bolder;
+}
+.first-part p {
+  text-align: justify;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.first-para {
+  margin-top: 20px;
+  border: 1px solid rgba(220, 20, 60, 0.857);
+  background-color: rgba(220, 20, 60, 0.1);
+  padding: 20px;
+}
+
+.second-part {
+  text-align: center;
+}
+.second-part h3 {
+  font-size: 35px;
+  color: rgba(0, 0, 255, 0.637);
+}
+.my-form {
+  font-size: 30px;
+  padding: 0px 0;
+  margin: 20px 0;
+  vertical-align: text-bottom;
+}
+.second-part h1 {
+  width: 80%;
+  margin: 50px 100px;
+  color: rgba(0, 0, 255, 0.612);
+}
+.second-part h1 span {
+  color: rgba(0, 0, 255, 0.764);
+}
+.second-part p {
+  text-align: center;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.742);
+}
+.third-part {
+  background-color: rgba(0, 0, 0, 0.607);
+  text-align: center;
+  padding-bottom: 30px;
+}
+.img-4 {
+  height: 500px;
+  padding-top: 25px;
+}
+.third-part h1 {
+  font-size: 40px;
+  color: white;
+  width: 80%;
+  margin: 50px 100px;
+}
+.third-part h1 span {
+  color: rgba(220, 20, 60, 0.757);
+}
+.third-part p {
+  color: white;
+  font-size: 20px;
+}
+.fifth-part {
+  background-color: rgba(0, 0, 255, 0.781);
+  margin-top: -27px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.fifth-part h1 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 30px;
+  color: white;
+}
+.paragraph {
+  padding-top: 100px;
+  padding-left: 100px;
+  color: white;
+  font-size: 40px;
+}
+.img-5 {
+  height: 400px;
+}
+.flex-shiii {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 768px) {
+  .heading {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 160%;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    /* letter-spacing: 2px; */
+    line-height: 1.5em;
+    /* word-spacing: 4px; */
+  }
+  .no_display {
+    display: none;
+  }
+  .first-link {
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+    font-size: 10px;
+  }
+  .first-header {
+    margin: 30px;
+    text-align: center;
+  }
+  .first-para {
+    display: none;
+  }
+  .first-part p {
+    display: none;
+  }
+  .second-part p {
+    text-align: center;
+    margin: 40px;
+  }
+  .second-part h1 {
+    text-align: center;
+    margin: 40px;
+  }
+  .img-4 {
+    text-align: center;
+    width: 95%;
+  }
+  .third-part h1 {
+    text-align: center;
+    margin: 30px;
+  }
+  .paragraph {
+    display: none;
+  }
+  .img-5 {
+    display: none;
+  }
+}
